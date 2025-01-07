@@ -2,7 +2,7 @@
 
 Crypto Chat App is a secure messaging application that ensures privacy and confidentiality by encrypting and decrypting messages using a password. The app uses base64 encoding to transform text into unreadable ciphertext; only those with the correct password can decrypt it back to the original message. This makes it an ideal tool for sending sensitive information securely.
 
-Features
+# Features
 •	Message Encryption: Provide a password to encrypt any text message. The message is converted into unreadable ciphertext, ensuring its confidentiality.
 •	Message Decryption: Decrypt an encrypted message using the correct password to retrieve the original text.
 •	Base64 Encoding: The app uses base64 encoding for secure message transformation.
@@ -10,12 +10,12 @@ Features
 •	User-Friendly Interface: Simple and intuitive design for smooth user interaction.
 •	Password Protection: Protects messages from unauthorized access by requiring a password to decrypt.
 
-Technologies Used
+# Technologies Used
 HTML: Used to create the web page's structure.
 CSS: Used for styling and providing a responsive, modern look to the app.
 JavaScript: Handles the encryption and decryption logic, implementing base64 encoding and decoding.
   
-Installation
+# Installation
 Follow the steps below to get the Crypto Chat App up and running on your local machine:
 
 1. Clone this repository to your local machine:
@@ -26,7 +26,7 @@ Open the index.html file in your web browser.
 
 There is no need for any server-side setup. The app runs entirely on the client side.
 
-Usage
+# Usage
 Once you have the app open in your browser, here’s how you can use it:
 
 Encrypt a Message:
@@ -60,7 +60,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 Thank you for using the Crypto Chat App! With this tool, you can send secure, encrypted messages knowing that only the intended recipient with the correct password can decrypt and read them.
 
-Key Sections:
+# Key Sections:
 o	Features: Detailed list of the app's core functionality.
 o	Technologies Used: Highlights the technologies involved.
 o	Installation: Simple instructions for setting up the app locally.
