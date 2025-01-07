@@ -1,4 +1,4 @@
-# Crypto Chat App
+# Crypto Chat App 
 
 Crypto Chat App is a secure messaging application that ensures privacy and confidentiality by encrypting and decrypting messages using a password. The app uses base64 encoding to transform text into unreadable ciphertext; only those with the correct password can decrypt it back to the original message. This makes it an ideal tool for sending sensitive information securely.
 
@@ -45,10 +45,10 @@ Copy Messages:
 After encryption or decryption, click the Copy button to copy the message to the clipboard for easy sharing.
 How It Works
 Message Encryption: The message is first encoded into ASCII, then converted into base64 format. This transformation makes the message unreadable without the proper password.
-Message Decryption: To decrypt the message, the user inputs the correct password. The app will reverse the encryption process, converting the base64 message back into the original text.
-Base64 Encoding: Base64 encoding is a common method for encoding binary data into a string format that is safe for transmission over text-based protocols. This app is used for both encryption and decryption of messages.
+Message Decryption: The user inputs the correct password to decrypt the message. The app will reverse the encryption process, converting the base64 message back into the original text.
+Base64 Encoding: Base64 encoding is a common method for encoding binary data into a string format safe for transmission over text-based protocols. This app is used for both encryption and decryption of messages.
 Contributing
-Contributions are welcome! If you have any suggestions, improvements, or bug fixes, feel free to open an issue or submit a pull request. Here's how you can contribute:
+Contributions are welcome! Feel free to open an issue or submit a pull request if you have any suggestions, improvements, or bug fixes. Here's how you can contribute:
 
 Fork the repository.
 Create a new branch (git checkout -b feature/your-feature-name).
