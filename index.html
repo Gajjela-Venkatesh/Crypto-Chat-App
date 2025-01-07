@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secured Msg App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Secured Msg App</h1>
+
+        <div id="set-password-section">
+            <h2>Set Password</h2>
+            <input type="password" id="new-password" placeholder="Enter New Password">
+            <input type="password" id="confirm-password" placeholder="Confirm Password">
+            <button onclick="setPassword()">Set Password</button>
+        </div>
+
+        <div id="main-section" style="display: none;">
+            <h2>Enter Text for Encryption and Decryption</h2>
+            <textarea id="message-text" placeholder="Enter message..."></textarea>
+
+            <h3>Enter Secret Key for Encryption and Decryption</h3>
+            <input type="password" id="password-input" placeholder="Enter Secret Key">
+
+            <button onclick="encryptMessage()">Encrypt</button>
+            <button onclick="decryptMessage()">Decrypt</button>
+            <button onclick="reset()">Reset</button>
+
+            <h3>Result</h3>
+            <textarea id="result-text" readonly></textarea>
+            <button onclick="copyToClipboard()">Copy to Clipboard</button>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
